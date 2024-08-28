@@ -5,7 +5,7 @@ const HOSTNAME = '0.0.0.0';
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, World!\n');
+  res.status(200).send('It Works!\n');
 });
 
 app.listen(PORT, HOSTNAME, () => {
